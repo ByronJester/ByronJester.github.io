@@ -6,6 +6,7 @@
   <title>Byron Jester M. Manalo - Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- Devicons CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body class="bg-gray-900 text-white font-mono">
@@ -14,9 +15,11 @@
   <nav class="bg-gray-800 p-4 shadow-md fixed w-full z-10 top-0">
     <div class="container mx-auto flex justify-between items-center">
       <span class="text-lg font-bold text-blue-400">Byron Jester</span>
+      <!-- Hamburger -->
       <button class="md:hidden text-white focus:outline-none" onclick="toggleMenu()">
         <i class="fas fa-bars text-xl"></i>
       </button>
+      <!-- Desktop Nav -->
       <ul id="nav-menu" class="hidden md:flex space-x-6 text-sm">
         <li><a href="#about" class="hover:text-blue-400 block py-2">About</a></li>
         <li><a href="#stack" class="hover:text-blue-400 block py-2">Tech Stack</a></li>
@@ -25,6 +28,7 @@
         <li><a href="#contact" class="hover:text-blue-400 block py-2">Contact</a></li>
       </ul>
     </div>
+    <!-- Mobile Menu -->
     <ul id="mobile-menu" class="md:hidden hidden flex-col mt-4 space-y-2 px-4 text-sm">
       <li><a href="#about" class="hover:text-blue-400 block">About</a></li>
       <li><a href="#stack" class="hover:text-blue-400 block">Tech Stack</a></li>
@@ -80,7 +84,7 @@
       </li>
       <li>
         <h3 class="font-bold">Full Stack Web Developer</h3>
-        <p class="italic mt-2 ml-4">Cashbee PH (Feb 2023 - May 2023)</p>
+        <p class="italic mt-2 ml-4">Cashbee PH (Feb 2023 - Mar 2023)</p>
         <ul class="list-disc pl-6 ml-6">
           <li>Develop UI/Backend using Vue.js and Laravel</li>
         </ul>
@@ -121,9 +125,11 @@
   <!-- Projects Section -->
   <section class="bg-gray-800 py-12 px-4" id="projects">
     <h2 class="text-2xl font-bold text-blue-400 mb-6 text-center">Sample Projects</h2>
-    <div class="flex flex-wrap justify-center w-full">
+
+    <!-- FIXED: Center project using flex -->
+    <div class="flex justify-center max-w-6xl mx-auto">
       <!-- Project Card -->
-      <div class="bg-gray-700 rounded-lg shadow-lg p-6 hover:shadow-xl transition w-full sm:w-4/5 md:w-1/2 lg:w-1/3">
+      <div class="bg-gray-700 rounded-lg shadow-lg p-6 hover:shadow-xl transition w-1/3">
         <h3 class="text-xl font-bold text-white mb-2">Dorm Hub</h3>
         <p class="text-gray-300 text-sm mb-4">
           A dormitory management platform where admins, dorm owners, and tenants can interact seamlessly.
