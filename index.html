@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Byron Jester M. Manalo - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- Devicons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body class="bg-gray-900 text-white font-mono">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-800 p-4 shadow-md fixed w-full z-10 top-0">
+    <div class="container mx-auto flex justify-between items-center">
+      <span class="text-lg font-bold text-blue-400">Byron Jester</span>
+      <!-- Hamburger -->
+      <button class="md:hidden text-white focus:outline-none" onclick="toggleMenu()">
+        <i class="fas fa-bars text-xl"></i>
+      </button>
+      <!-- Desktop Nav -->
+      <ul id="nav-menu" class="hidden md:flex space-x-6 text-sm">
+        <li><a href="#about" class="hover:text-blue-400 block py-2">About</a></li>
+        <li><a href="#stack" class="hover:text-blue-400 block py-2">Tech Stack</a></li>
+        <li><a href="#experience" class="hover:text-blue-400 block py-2">Work Experience</a></li>
+        <li><a href="#projects" class="hover:text-blue-400 block py-2">Sample Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-400 block py-2">Contact</a></li>
+      </ul>
+    </div>
+    <!-- Mobile Menu -->
+    <ul id="mobile-menu" class="md:hidden hidden flex-col mt-4 space-y-2 px-4 text-sm">
+      <li><a href="#about" class="hover:text-blue-400 block">About</a></li>
+      <li><a href="#stack" class="hover:text-blue-400 block">Tech Stack</a></li>
+      <li><a href="#experience" class="hover:text-blue-400 block">Work Experience</a></li>
+      <li><a href="#projects" class="hover:text-blue-400 block">Sample Projects</a></li>
+      <li><a href="#contact" class="hover:text-blue-400 block">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col items-center justify-center text-center pt-40 pb-20 px-4" id="hero">
+    <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold mb-4">Byron Jester M. Manalo</h1>
+    <p class="text-lg sm:text-xl md:text-2xl text-gray-400">Full Stack Web Developer</p>
+  </section>
+
+  <!-- About Section -->
+  <section class="max-w-4xl mx-auto px-4 py-12" id="about">
+    <h2 class="text-2xl font-bold text-blue-400 mb-4">About Me</h2>
+    <p class="text-gray-300">
+      I'm a full stack developer with over 7 years of experience building web apps that are fast, intuitive, and user-friendly.
+      <br><br>
+      I love working across the stack—from crafting elegant interfaces to architecting robust APIs and database structures. I’m always curious, always learning, and enjoy solving real-world problems with clean code, thoughtful design, and a creative mindset.
+    </p>
+  </section>
+
+  <!-- Tech Stack -->
+  <section class="bg-gray-800 py-12 px-4" id="stack">
+    <h2 class="text-2xl font-bold text-blue-400 mb-6 text-center">Tech Stack</h2>
+    <div class="flex flex-wrap justify-center gap-4 text-gray-200 max-w-5xl mx-auto">
+      <span class="bg-gray-700 px-4 py-2 rounded-lg shadow flex items-center gap-2"><i class="devicon-laravel-plain text-red-500"></i> Laravel</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-lg shadow flex items-center gap-2"><i class="devicon-vuejs-plain text-green-400"></i> Vue JS</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-lg shadow flex items-center gap-2"><i class="devicon-react-original text-blue-400"></i> React JS</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-lg shadow flex items-center gap-2"><i class="devicon-php-plain text-purple-400"></i> PHP</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-lg shadow flex items-center gap-2"><i class="devicon-javascript-plain text-yellow-400"></i> JavaScript</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-lg shadow flex items-center gap-2"><i class="devicon-mysql-plain text-orange-400"></i> MySQL</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-lg shadow flex items-center gap-2"><i class="devicon-html5-plain text-red-400"></i> HTML</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-lg shadow flex items-center gap-2"><i class="devicon-css3-plain text-blue-500"></i> CSS</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-lg shadow flex items-center gap-2"><i class="devicon-tailwindcss-plain text-cyan-400"></i> Tailwind</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-lg shadow flex items-center gap-2"><i class="devicon-bootstrap-plain text-purple-500"></i> Bootstrap</span>
+    </div>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section class="max-w-4xl mx-auto px-4 py-12" id="experience">
+    <h2 class="text-2xl font-bold text-blue-400 mb-6">Work Experience</h2>
+    <ul class="space-y-6 text-gray-300">
+      <li>
+        <h3 class="font-bold">Full Stack Web Developer</h3>
+        <p class="italic mt-2 ml-4">Umbra Digital Company (Jun 2023 - Present)</p>
+        <ul class="list-disc pl-6 ml-6">
+          <li>Develop UI/Backend using Vue.js and Laravel</li>
+        </ul>
+      </li>
+      <li>
+        <h3 class="font-bold">Full Stack Web Developer</h3>
+        <p class="italic mt-2 ml-4">Cashbee PH (Feb 2023 - Mar 2023)</p>
+        <ul class="list-disc pl-6 ml-6">
+          <li>Develop UI/Backend using Vue.js and Laravel</li>
+        </ul>
+      </li>
+      <li>
+        <h3 class="font-bold">Full Stack Web Developer</h3>
+        <p class="italic mt-2 ml-4">Hiraya MNL (Aug 2020 - Jan 2023)</p>
+        <ul class="list-disc pl-6 ml-6">
+          <li>Develop UI/Backend using Vue.js and Laravel</li>
+          <li>Develop Landing Page using Vue JS, React JS, and Webflow.io</li>
+        </ul>
+      </li>
+      <li>
+        <h3 class="font-bold">Backend Developer</h3>
+        <p class="italic mt-2 ml-4">OrangeApps Inc. (Jan 2019 - Aug 2020)</p>
+        <ul class="list-disc pl-6 ml-6">
+          <li>Develop Mobile API using Laravel/Lumen</li>
+        </ul>
+      </li>
+      <li>
+        <h3 class="font-bold">Software Quality Assurance</h3>
+        <p class="italic mt-2 ml-4">OrangeApps Inc. (June 2018 - Dec 2018)</p>
+        <ul class="list-disc pl-6 ml-6">
+          <li>Test the platform features and functionality</li>
+          <li>Report bugs and UI problems found</li>
+        </ul>
+      </li>
+      <li>
+        <h3 class="font-bold">IOS Developer (Internship)</h3>
+        <p class="italic mt-2 ml-4">OrangeApps Inc. (Feb 2018 - May 2018)</p>
+        <ul class="list-disc pl-6 ml-6">
+          <li>Develop Mobile IOS Application using Swift</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="bg-gray-800 py-12 px-4" id="projects">
+    <h2 class="text-2xl font-bold text-blue-400 mb-6 text-center">Sample Projects</h2>
+
+    <!-- FIXED: Center project using flex -->
+    <div class="flex justify-center max-w-6xl mx-auto">
+      <!-- Project Card -->
+      <div class="bg-gray-700 rounded-lg shadow-lg p-6 hover:shadow-xl transition w-1/3">
+        <h3 class="text-xl font-bold text-white mb-2">Dorm Hub</h3>
+        <p class="text-gray-300 text-sm mb-4">
+          A dormitory management platform where admins, dorm owners, and tenants can interact seamlessly.
+        </p>
+        <a href="https://dorm-hub.onrender.com/" target="_blank"
+          class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mb-4">
+          Visit Project
+        </a>
+        <div class="bg-gray-800 p-4 rounded-lg border border-gray-600">
+          <h4 class="text-blue-400 font-semibold mb-2">User Credentials</h4>
+          <div class="mb-2">
+            <p class="font-bold text-sm text-gray-200">Admin</p>
+            <p class="text-gray-400 text-xs">Username: <span class="text-white">admin</span></p>
+            <p class="text-gray-400 text-xs">Password: <span class="text-white">password</span></p>
+          </div>
+          <div class="mb-2">
+            <p class="font-bold text-sm text-gray-200">Dorm Owner</p>
+            <p class="text-gray-400 text-xs">Username: <span class="text-white">johndoe</span></p>
+            <p class="text-gray-400 text-xs">Password: <span class="text-white">P@ssword1</span></p>
+            <p class="text-gray-400 text-xs mt-1">Username: <span class="text-white">jamesdoe</span></p>
+            <p class="text-gray-400 text-xs">Password: <span class="text-white">P@ssword1</span></p>
+          </div>
+          <div>
+            <p class="font-bold text-sm text-gray-200">Tenant</p>
+            <p class="text-gray-400 text-xs">Username: <span class="text-white">janedoe</span></p>
+            <p class="text-gray-400 text-xs">Password: <span class="text-white">P@ssword1</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-gray-900 py-12 px-4 text-center" id="contact">
+    <h2 class="text-2xl font-bold text-blue-400 mb-4">Contact</h2>
+    <form action="https://formspree.io/f/xzzewawy" method="POST" class="max-w-xl mx-auto space-y-4 mt-6">
+      <input type="text" name="name" placeholder="Your Name" required
+        class="w-full px-4 py-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+      <input type="email" name="_replyto" placeholder="Your Email" required
+        class="w-full px-4 py-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+      <textarea name="message" rows="5" placeholder="Your Message" required
+        class="w-full px-4 py-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+      <button type="submit"
+        class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded font-bold transition">Send</button>
+    </form>
+    <div class="mt-4 text-gray-400">
+      <p class="text-sm">We'll get back to you as soon as possible.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center text-white py-6 text-sm border-t border-gray-700">
+    <p class="italic">"It's not a bug – it's an undocumented feature."</p>
+    <p class="mt-2">© <span id="year"></span> Byron Jester M. Manalo</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    function toggleMenu() {
+      const menu = document.getElementById("mobile-menu");
+      menu.classList.toggle("hidden");
+    }
+  </script>
+</body>
+</html>
